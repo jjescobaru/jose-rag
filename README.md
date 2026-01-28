@@ -67,15 +67,17 @@ Repeated boilerplate headers are removed during ingestion to improve retrieval q
 
 ```bash
 src/
-  ingest.py           # load + chunk documents
-  ollama_embed.py     # embeddings via Ollama
-  vectordb.py         # ChromaDB wrapper
-  retrieve_chroma.py  # vector retrieval
-  rag.py              # prompt augmentation
-  generate.py         # LLM generation
+  ingest.py                       # load + chunk documents
+  ollama_embed.py                 # embeddings via Ollama
+  vectordb.py                     # ChromaDB wrapper
+  retrieve_chroma.py              # vector retrieval
+  rag.py                          # prompt augmentation
+  generate.py                     # LLM generation
 data/
-  *.txt               # condominium regulations
-jose_rag.ipynb        # interactive demo
+  *.txt                           # condominium regulations
+jose_rag.ipynb                    # interactive demo
+Minimal RAG - Escobar Jose.pptx   # presentation in Power Point format
+Minimal RAG - Escobar Jose.pdf    # presentation in PDF format
 ```
 
 
