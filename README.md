@@ -65,6 +65,7 @@ Repeated boilerplate headers are removed during ingestion to improve retrieval q
 
 ## Repository Structure
 
+```bash
 src/
   ingest.py           # load + chunk documents
   ollama_embed.py     # embeddings via Ollama
@@ -75,7 +76,7 @@ src/
 data/
   *.txt               # condominium regulations
 jose_rag.ipynb        # interactive demo
-
+```
 
 
 
